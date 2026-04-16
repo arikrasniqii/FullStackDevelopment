@@ -6,7 +6,7 @@
 }
 */
 
-@media all and(max-width:600px){
+@media all and (max-width:600px){
     body{
         background-color: #00004e;
         color: white;
