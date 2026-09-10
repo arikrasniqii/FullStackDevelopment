@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>7 Wonders of the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="wonders.html">Wonders</a>
+</nav>
+
+<h1>7 Wonders of the World</h1>
+
+<h2>Slideshow</h2>
+
+<div id="slideWrapper">
+        <div class="slide">
+            <img src="china.jpg" width="400">
+        </div>
+
+        <div class="slide">
+            <img src="Chichen.webp" width="400">
+        </div>
+
+        <div class="slide">
+            <img src="Christ-the-Redeemer.webp" width="400">
+        </div>
+
+        <div class="slide">
+            <img src="machu-picchu.webp" width="400">
+        </div>
+
+        <div class="slide">
+            <img src="Taj_Mahal.jpeg" width="400">
+        </div>
+
+        <div class="slide">
+            <img src="colosseum.jpg" width="400">
+        </div>
+
+        <div class="slide">
+            <img src="petra.avif" width="400">
+        </div>
+
+<br>
+
+<button onclick="plusSlides(-1)">Prev</button>
+<button onclick="plusSlides(1)">Next</button>
+
+<h2>Facts About the 7 Wonders</h2>
+
+<select id="wonderSelect" onchange="showFact()">
+    <option value="">Select a wonder</option>
+    <option value="greatwall">Great Wall of China</option>
+    <option value="petra">Petra</option>
+    <option value="redeemer">Christ the Redeemer</option>
+    <option value="machu">Machu Picchu</option>
+    <option value="chichen">Chichen Itza</option>
+    <option value="colosseum">Colosseum</option>
+    <option value="taj">Taj Mahal</option>
+</select>
+
+<p id="factText"></p>
+
+<h2>Contact</h2>
+
+<input id="name" placeholder="Name">
+<input id="email" placeholder="Email">
+
+<button onclick="send()">Send</button>
+
+<p id="msg"></p>
+
+<script src="main.js"></script>
+</body>
+</html>
