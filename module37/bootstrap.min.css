@@ -1,0 +1,12 @@
+/* Bootstrap-like fallback for offline classroom use */
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:#212529}
+.container{width:100%;max-width:1140px;margin:0 auto;padding:0 12px}
+.mt-5{margin-top:3rem}.mb-5{margin-bottom:3rem}.text-center{text-align:center}
+.display-5{font-size:2.5rem;font-weight:500;line-height:1.2}.lead{font-size:1.25rem;font-weight:300}
+.btn{display:inline-block;padding:.375rem .75rem;border:1px solid transparent;border-radius:.375rem;cursor:pointer}
+.btn-primary{background:#0d6efd;color:#fff}.btn-outline-primary{color:#0d6efd;border-color:#0d6efd;background:transparent}
+.btn-outline-success{color:#198754;border-color:#198754;background:transparent}.btn-outline-dark{color:#212529;border-color:#212529;background:transparent}
+.navbar{padding:.5rem 0}.navbar-dark{background:#212529}.navbar-brand{font-size:1.25rem;color:#fff}
+.h1{font-size:2rem}.row{display:flex;flex-wrap:wrap;margin:-.75rem}.g-4>*{padding:.75rem}
+.card{background:#fff;border:1px solid #dee2e6;border-radius:.375rem}.card-body{padding:1rem}.card-title{margin:0 0 .5rem}.card-text{margin-top:0}
+.h-100{height:100%}@media(min-width:768px){.col-md-4{width:33.333333%}}
