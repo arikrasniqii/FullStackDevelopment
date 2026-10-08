@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adem Jashari Airport - About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <nav class="navbar">
+
+    <div class="logo">
+        <img src="logo1.png" alt="Logo">
+        <p>Air Prishtina</p>
+
+        <button id="SignIn" onclick="window.location.href='signin.html'">
+            Sign Up
+        </button>
+    </div>
+
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="about.html">About Us</a>
+        <a href="booknow.html">Book Now</a>
+    </div>
+
+  </nav> 
+  </header>
+
+  <main>
+
+    <section class="about">
+      <h2>About Us</h2>
+      <p>Kosovo's only international airport, connecting Pristina to the world since 1965.</p>
+    </section>
+
+    <section class="story">
+      <img class="story-img" src="pristina-apt-1.jpg" alt="Airport terminal building">
+
+      <div class="story-text">
+        <h3>Our Story</h3>
+        <p>Prishtina International Airport Adem Jashari is the sole gateway for air travel into Kosovo. Originally opened in 1965, the airport was renamed in 2010 in honor of Adem Jashari, founder of the Kosovo Liberation Army. A modern terminal, control tower and expanded infrastructure were completed in 2013, raising the airport's capacity from 2 to 5 million passengers a year.</p>
+
+        <h3>Why Choose Us?</h3>
+        <ul class="why-list">
+          <li>Kosovo's only port of entry by air</li>
+          <li>Modern terminal with duty-free, dining and lounges</li>
+          <li>Connections to major European cities</li>
+          <li>ISO-certified quality and safety standards</li>
+        </ul>
+
+        <a class="btn" href="flights.html">View Flights →</a>
+      </div>
+    </section>
+
+    <section class="stats">
+      <h3>Curious About Our Numbers?</h3>
+      <button id="statsBtn">Our Stats</button>
+
+      <div id="statsBox" class="stats-grid hidden">
+        <div class="stat-card">
+          <h4 id="statRoutes" data-target="30" data-suffix="+">0</h4>
+          <p>Flight Routes</p>
+        </div>
+
+        <div class="stat-card">
+          <h4 id="statPassengers" data-target="12600" data-prefix="~">0</h4>
+          <p>Passengers Per Day </p>
+        </div>
+
+        <div class="stat-card">
+          <h4 id="statPlanes" data-target="80" data-prefix="~">0</h4>
+          <p>Planes In & Out Per Day </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Instagram:</strong> @AirPrishtina  |  <strong>Phone:</strong> +381 38 501 502</p>
+    <p>© 2026 Air Prishtina </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
