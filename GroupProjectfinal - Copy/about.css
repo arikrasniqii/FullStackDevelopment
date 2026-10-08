@@ -1,0 +1,318 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 96%;
+    height: 58px;
+    margin: 12px auto 0;
+    background-color: #071a31;
+    border: 1px solid #263d59;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+#SignIn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+    background-color: #6498ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 38px;
+    width: 90px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#SignIn:hover {
+    background-color: #4d82ee;
+    transform: scale(1.08);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.logo p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #75a5ff;
+    transform: scale(1.1);
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+  line-height: 1.6;
+}
+
+.logo img {
+  height: 42px;
+  display: block;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: #f8fafc;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #38bdf8;
+}
+
+.about {
+  padding: 70px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(15,23,42,0.75), rgba(15,23,42,0.75)),
+              url("images/about-banner.jpg") center/cover no-repeat;
+}
+
+.about h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 17px;
+  color: #cbd5e1;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.story{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.story-img {
+  padding-top: 10%;
+  width: 60%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.story-text {
+  width: 55%;
+}
+
+.story-text h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.story-text p {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.why-list {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.why-list li {
+  padding: 8px 0;
+  color: #f8fafc;
+}
+
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.stats {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.stats h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #38bdf8;
+}
+
+.stats button {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.stats button:hover {
+  opacity: 0.9;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.stat-card {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 25px;
+  width: 180px;
+}
+
+.stat-card h4 {
+  font-size: 28px;
+  color: #38bdf8;
+  margin-bottom: 8px;
+}
+
+.stat-card p {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #1e293b;
+  margin-top: 40px;
+  color: #cbd5e1;
+}
+
+
+@media(max-width:900px){
+
+  .navbar{
+    padding:15px 20px;
+  }
+
+  .logo img{
+    height:36px;
+  }
+
+  .links a{
+    font-size:15px;
+    margin-left:12px;
+  }
+
+  .about-banner h2{
+    font-size:32px;
+  }
+
+  .story{
+    flex-direction:column;
+  }
+
+  .story-img,
+  .story-text{
+    width:100%;
+  }
+}
+
+
+@media(max-width:600px){
+
+  .navbar{
+    flex-direction:column;
+    gap:12px;
+    text-align:center;
+    padding:15px;
+  }
+
+  .links{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .links a{
+    margin:0 8px;
+    font-size:14px;
+  }
+
+  .about-banner{
+    padding:45px 15px;
+  }
+
+  .about-banner h2{
+    font-size:26px;
+  }
+
+  .about-banner p{
+    font-size:14px;
+  }
+
+  .story-text h3{
+    font-size:19px;
+  }
+
+  .stat-card{
+    width:100%;
+    max-width:280px;
+  }
+
+  footer{
+    font-size:14px;
+  }
+}

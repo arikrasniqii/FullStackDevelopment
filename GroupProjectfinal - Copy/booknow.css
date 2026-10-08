@@ -1,0 +1,288 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 96%;
+    height: 58px;
+    margin: 12px auto 0;
+    background-color: #071a31;
+    border: 1px solid #263d59;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+#SignIn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+    background-color: #6498ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 38px;
+    width: 90px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#SignIn:hover {
+    background-color: #4d82ee;
+    transform: scale(1.08);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.logo p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #75a5ff;
+    transform: scale(1.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.logo p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#SignIn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+    background-color: #6498ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 38px;
+    width: 90px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#SignIn:hover {
+    background-color: #4d82ee;
+    transform: scale(1.08);
+}
+
+
+
+footer {
+    width: 96%;
+    margin: 0 auto;
+    background-color: #071a31;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    color: #c5cfdb;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.travel-card {
+    width: 400px;
+    background-color: #071a31;
+   border: 2px solid #263d59;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.travel-card img {
+    width: 100%;
+    height: 220px;
+}
+
+.travel-info {
+    padding: 20px;
+    color: white;
+}
+
+.travel-info h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: lightskyblue;
+}
+
+.travel-info p {
+    margin: 8px 0;
+}
+
+
+
+body {
+    background-color: #061426;
+}
+
+
+.travel-card {
+    background-color: #071a31;
+    border: 2px solid #263d59;
+}
+
+
+
+.inputs label {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+
+
+.inputs inputs,
+.inputs select {
+    background-color: #061426;
+    color: white;
+    border: 2px solid #263d59;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+
+.inputs input:focus,
+.inputs select:focus {
+    border-color: #071a31;
+    outline: none;
+}
+
+
+
+
+.inputs label {
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    border-left: 3px solid #263d59;
+    padding-left: 8px;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column
+}
+
+.inputs label {
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+
+}
+
+.h1book {
+    color: white;
+}
+
+
+
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .logo img {
+        height: 36px;
+    }
+
+    .links a {
+        font-size: 15px;
+        margin-left: 12px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .links a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+
+}

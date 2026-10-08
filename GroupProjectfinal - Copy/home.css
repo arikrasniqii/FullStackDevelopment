@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #061426;
+    color: white;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 96%;
+    height: 58px;
+    margin: 12px auto 0;
+    background-color: #071a31;
+    border: 1px solid #263d59;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+#SignIn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+    background-color: #6498ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 38px;
+    width: 90px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#SignIn:hover {
+    background-color: #4d82ee;
+    transform: scale(1.08);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.logo p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #75a5ff;
+    transform: scale(1.1);
+}
+
+.home {
+    width: 96%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #061426;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 55px;
+    gap: 50px;
+}
+
+.home-text {
+    width: 50%;
+}
+
+.home-text h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    color: #e1e8f2;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.explore-button {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+    display: inline-block;
+    background-color: #6498ff;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #4d82ee;
+}
+
+.home-image {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 45%;
+    height: 480px;
+    border-radius: 12px;
+}
+
+.home-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-section {
+    border-radius: 3%;
+    width: 96%;
+    margin: 0 auto;
+    background-color: #244260;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 70px 60px;
+    gap: 60px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.text-part {
+    margin-bottom: 45px;
+}
+
+.text-part:last-child {
+    margin-bottom: 0;
+}
+
+.text-part h2 {
+    color: #eceeef;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.text-part p {
+    color: #d0dbe8;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.about-image {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 45%;
+    height: 510px;
+    border-radius: 12px;
+}
+
+.about-image img {
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+footer {
+    width: 96%;
+    margin: 0 auto;
+    background-color: #071a31;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    color: #c5cfdb;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.signin-box {
+    width: 350px;
+    margin: 120px auto;
+    padding: 35px;
+    background-color: #071a31;
+    border: 1px solid #263d59;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.signin-box h1 {
+    margin-bottom: 10px;
+}
+
+.signin-box p {
+    color: #c5cfdb;
+    margin-bottom: 25px;
+}
+
+.signin-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #263d59;
+    border-radius: 6px;
+    background-color: #102d4d;
+    color: white;
+}
+
+.signin-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6498ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.signin-box button:hover {
+    background-color: #4d82ee;
+}
+
+.signin-box a {
+  
+    color: #75a5ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#message {
+    margin-top: 20px;
+    color: #75a5ff;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .logo {
+        gap: 7px;
+    }
+
+    .logo p {
+        font-size: 15px;
+    }
+
+    #SignIn {
+        width: 80px;
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .links {
+        gap: 15px;
+    }
+
+    .links a {
+        font-size: 11px;
+    }
+
+    .home {
+        height: 550px;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .home-text {
+        width: 50%;
+    }
+
+    .home-text h1 {
+        font-size: 38px;
+    }
+
+    .home-text p {
+        font-size: 15px;
+    }
+
+    .home-image {
+        width: 45%;
+        height: 430px;
+    }
+
+    .about-section {
+        padding: 50px 30px;
+        gap: 30px;
+    }
+
+    .about-text {
+        width: 50%;
+    }
+
+    .text-part h2 {
+        font-size: 23px;
+    }
+
+    .about-image {
+        width: 45%;
+    }
+
+    .about-image img {
+        height: 450px;
+    }
+
+    .signin-box {
+        width: 400px;
+        margin: 100px auto;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .navbar {
+        height: auto;
+        padding: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+
+    .home {
+        height: auto;
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 35px;
+    }
+    .home-text {
+        width: 100%;
+    }
+    .home-text h1 {
+        font-size: 32px;
+    }
+    .home-text p {
+        font-size: 14px;
+    }
+    .explore-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+    .home-image {
+        width: 100%;
+        height: 350px;
+    }
+    .about-section {
+        flex-direction: column;
+        padding: 40px 25px;
+        gap: 35px;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .text-part {
+        margin-bottom: 35px;
+    }
+    .text-part h2 {
+        font-size: 22px;
+    }
+    .text-part p {
+        font-size: 14px;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .about-image img {
+        height: 350px;
+    }
+    footer {
+        padding: 20px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    .signin-box {
+        width: 90%;
+        margin: 70px auto;
+        padding: 25px;
+    }
+    .signin-box h1 {
+        font-size: 25px;
+    }
+    .signin-box p {
+        font-size: 14px;
+    }
+    .signin-box input {
+        padding: 11px;
+    }
+    .signin-box button {
+        padding: 11px;
+    }
+}
+
+ 

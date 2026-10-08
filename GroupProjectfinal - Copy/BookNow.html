@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booknow.css">
+</head>
+<body>
+    
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+        <p>Air Prishtina</p>
+
+        <button id="SignIn" onclick="window.location.href='signin.html'">
+            Sign Up
+        </button>
+    </div>
+
+    <div class="links">
+        <a href="home.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="about.html">About Us</a>
+        <a href="BookNow.html">Book Now</a>
+    </div>
+
+</nav>
+
+<div class="booking">   
+<h1 class="h1book">Book ur next holiday!</h1>
+<div class="inputs">
+
+<label>destination</label>
+<input type="text" placeholder="Destination please!"  id="destination">
+
+<label>Check-in date</label>
+<input type="datetime-local" id="checkin">
+
+<label>Check-out date</label>
+<input type="datetime-local" id="checkout" >
+
+<label>Guests</label>
+<input type="number" placeholder="adults" id="adults">
+<input type="number" placeholder="children" id="children">
+
+<label>travel type</label>
+<select id="tt">
+    <option >Hotel</option>
+      <option >Flight</option>
+        <option >Hotel + Flight</option>
+          <option >Vacation Package</option>
+</select>
+
+
+<label > Max budget</label>
+<input type="number" id="budget">
+
+
+
+
+<label>Travel Class</label>
+<select id="class">
+    <option>Economy</option>
+    <option>Premium Economy</option>
+    <option>Business</option>
+    <option>First Class</option>
+</select>
+
+<input type="submit" id="submitbutton">
+
+</div>
+
+
+
+<div id="result">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<footer>
+
+    <p>© 2026 Air Prishtina. All rights reserved.</p>
+    <p>Instagram : AirPrishtina</p>
+    <p>Tiktok : PrishtinaAir</p>
+
+</footer>
+
+
+
+
+
+<script src="booknow.js"></script>
+</body>
+</html>

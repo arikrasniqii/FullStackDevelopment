@@ -1,0 +1,268 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 96%;
+    height: 58px;
+    margin: 12px auto 0;
+    background-color: #071a31;
+    border: 1px solid #263d59;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+#SignIn {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+    background-color: #6498ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 38px;
+    width: 90px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#SignIn:hover {
+    background-color: #4d82ee;
+    transform: scale(1.08);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.logo p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #75a5ff;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+body{
+    height: 2000px;
+    background: linear-gradient(to bottom, #021446 0%, #051033 5%, #140c29 100%);
+}
+
+
+
+
+
+
+
+
+.title{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-size: 80px;
+}
+
+
+#quote{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    line-height: 2;
+    font-size: 17px;
+}
+
+#p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    line-height: 1.7;
+    font-size: 25px;
+}
+
+
+#border{
+    height: 3px;
+    width: 1100px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 200px;
+    margin-left: 217.5px;
+    border-radius: 3px;
+
+}
+
+
+
+#bangkok{
+    height: 400px;
+    width: auto;
+    border-radius: 100px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
+
+#bangkok:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+
+#dubai{
+    height: auto;
+    width: 400px;
+    border-radius: 70px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 975px;
+    margin-top: -200px;
+
+    
+}
+
+#dubai:hover{
+    transform: scale(1.02);
+}
+
+
+
+#istanbul{
+    height: auto;
+    width: 800px;
+    border-radius: 100px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 50px;
+    margin-top: -100;
+}
+
+#istanbul:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+#kualaLumpur{
+    height: auto;
+    width: 700px;
+    border-radius: 95px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 80px;
+    margin-top: 300px;
+}
+
+#kualaLumpur:hover{
+    transform: scale(1.02);
+}
+
+
+#paris{
+    height: auto;
+    width: 500px;
+    border-radius: 70px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 950px;
+    margin-top: -1000px;
+}
+
+#paris:hover{
+    transform: scale(1.02);
+}
+
+
+#singapore{
+    height: auto;
+    width: 600px;
+    border-radius: 90px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 875px;
+    margin-top: 300px;
+}
+
+
+#singapore:hover{
+    transform: scale(1.02);
+}
+
+
+
+#tokyo{
+    height: auto;
+    width: 600px;
+    border-radius: 90px;
+    outline: 4px solid rgba(191, 188, 230, 0.421);
+    outline-offset: 6px;
+    transition: transform 0.25s ease-out;
+    display: block;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+
+#tokyo:hover{
+    transform: scale(1.02);
+}
+
+
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #1e293b;
+  margin-top: 250px;
+  color: #cbd5e1;
+}
